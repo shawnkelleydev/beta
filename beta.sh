@@ -47,3 +47,10 @@ git reset --soft HEAD~2
 git push origin $branch -f
 
 echo -e "${YELLOW} DONE! ${NC}"
+
+while true
+do
+  clear -x
+  glab ci list -P ${1:-5}
+  sleep 5
+done
