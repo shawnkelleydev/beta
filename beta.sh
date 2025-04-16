@@ -1,6 +1,9 @@
 #!/bin/bash
 source ~/.bash_profile
 
+# Exit if any command fails
+set -e
+
 CYAN='\033[36;1m'
 YELLOW='\033[33;1m'
 NC='\033[0m'
